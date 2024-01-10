@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>flexbox direction</title>
+
+    <style>
+*{margin: 0;padding: 0;}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    margin: 3px;;
+}
+#container{
+    height: 150px;
+    width: 650px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid red ;
+    display: flex;
+    flex-direction: row-reverse;
+    ;
+}
+
+#headd{ text-align: center;
+    margin-left: 10px;
+}
+#box1{background-color: aliceblue;}
+#box2{background-color: rgb(48, 50, 219);}
+#box3{background-color: rgb(197, 242, 63);}
+#box4{background-color: rgb(205, 106, 126);}
+
+
+
+    </style>
+</head>
+<body>
+    
+    <h1 id="headd"> flexbox</h1>
+
+    <div id="container">
+
+<div id="box1" class="box"> BOX 1 </div>
+<div id="box2" class="box"> BOX 2 </div>
+<div id="box3" class="box"> BOX 3 </div>
+<div id="box4" class="box"> BOX 4 </div>
+
+    </div>
+</body>
+</html>

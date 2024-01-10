@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Flex item order</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            color: blue;
+        }
+
+        .box {
+            height: 80px;
+            width: 80px;
+            border: 2px solid rgb(4, 4, 31);
+            margin: 3px;
+        }
+
+        #container {
+            height: 350px;
+            width: 500px;
+            padding: 10px;
+            margin: 10px;
+            border: 3px solid red;
+
+
+            display: flex;
+            ;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #headd {
+            text-align: center;
+            margin-right: 150px;
+        }
+
+
+        #box1 {
+            background-color: rgb(53, 68, 81);
+            order: 4;
+        }
+
+        #box2 {
+            background-color: rgb(48, 219, 165);
+            order: 3;
+        }
+
+        #box3 {
+            background-color: rgb(200, 218, 147);
+            order: 1;
+        }
+
+        #box4 {
+            background-color: rgb(251, 126, 129);
+            order: 2;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1 id="headd"> flexbox container</h1>
+
+    <div id="container">
+
+<div id="box1" class="box">Flex BOX 1 </div>
+<div id="box2" class="box">Flex BOX 2 </div>
+<div id="box3" class="box">Flex BOX 3 </div>
+<div id="box4" class="box">Flex BOX 4 </div>
+
+
+    </div>
+</body>
+</html>
