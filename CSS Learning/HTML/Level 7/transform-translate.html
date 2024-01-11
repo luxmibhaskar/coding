@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Transform scale</title>
+
+    <style>
+.box{
+height: 50px;
+width: 50px;
+padding: 5px;
+margin: 20px;
+border: 2px solid red;
+border-radius: 5px;
+transition-property: all;
+transition-duration: 2s;
+transition-timing-function: easy-in-out;
+;
+}
+
+
+
+#box1{ background-color: aquamarine;}
+#box1:hover{transform:translate(50px);}
+
+
+#box2{ background-color: rebeccapurple;}
+#box2:hover{transform: translate(50px,50px);}
+
+#box3{ background-color: pink;}
+#box3:hover{transform: translatex(50px);}
+
+
+#box4{ background-color: cornflowerblue;}
+#box4:hover{transform: translatey(50px);}
+
+
+
+    </style>
+</head>
+<body>
+
+<div id="box1" class="box">Translate 50px </div>
+<div id="box2" class="box">Translate 50px, 50px </div>
+<div id="box3" class="box"> Translate x 50px </div>
+<div id="box4" class="box"> Translate y 50px </div>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Transform Rotate </title>
+
+    <style>
+.box{
+height: 50px;
+width: 50px;
+padding: 5px;
+margin: 20px;
+border: 2px solid red;
+border-radius: 5px;
+transition-property: all;
+transition-duration: 2s;
+transition-timing-function: easy-in-out;
+;
+}
+
+
+
+/*extra 
+
+.r{height: 500px;
+    width: 500px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+
+
+#box1{ background-color: aquamarine;}
+#box1:hover{transform: rotate(35deg);}
+
+
+#box2{ background-color: rebeccapurple;}
+#box2:hover{transform: rotate(180deg);}
+
+#box3{ background-color: pink;}
+#box3:hover{transform: rotatex(35deg);}
+
+
+#box4{ background-color: cornflowerblue;}
+#box4:hover{transform: rotatey(35deg);}
+
+    </style>
+</head>
+<body>
+    <div class="r">
+<div id="box1" class="box">x <sup>deg</sup></div>
+<div id="box2" class="box">y<sup>deg</sup></div>
+<div id="box3" class="box">z<sup>deg</sup></div>
+<div id="box4" class="box">i<sup>deg</sup></div>
+</div>
+</body>
+</html>

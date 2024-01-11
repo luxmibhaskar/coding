@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Animation</title>
+
+    <style>
+        .box {
+            height: 75px;
+            width: 75px;
+            border: 2px solid olive;
+            border-radius: 15px;
+            position: absolute;
+            left: 10px;
+            background-color: antiquewhite;
+
+
+            animation-name: chalc;
+            animation-duration: 3s;
+            animation-timing-function: easy-in-out;
+            animation-delay: 0s;
+            animation-iteration-count: 6;
+
+            animation-direction: alternate-reverse;
+        }
+
+
+        @keyframes chalc {
+            from {
+                left: 10px
+            }
+
+            to {
+                left: 300px
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">animation</div>
+
+</body>
+
+</html>
